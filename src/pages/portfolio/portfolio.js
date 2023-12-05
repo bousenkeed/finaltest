@@ -1,6 +1,8 @@
+import s from './portfolio.module.css'
+
 function Portfolio() {
     return (
-        <div>
+        <div className={s.main_container}>
 
         </div>
     )
