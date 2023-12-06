@@ -4,10 +4,9 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
-import s from './portfolio.module.css'
+import s from './skills.module.css'
 
-
-function Portfolio() {
+function Skills() {
   return (
     <div className={s.main_container}>
       <div className={s.cards}>
@@ -100,5 +99,5 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default Skills;
 

@@ -3,7 +3,7 @@ import './Main.css';
 import Contacts from './contacts/contacts';
 import Gallery from './gallery/gallery';
 import Home from './home/home';
-import Portfolio from './portfolio/portfolio';
+import Skills from './skills/skills';
 import Footer from './footer/footer';
 import {
   Routes,
@@ -18,7 +18,7 @@ function Main() {
         <Route path="/" element={<Home />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contacts" element={<Contacts />} />
-        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/skills" element={<Skills />} />
       </Routes>
       <Footer />
     </BrowserRouter>
