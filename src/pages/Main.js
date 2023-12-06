@@ -4,6 +4,7 @@ import Contacts from './contacts/contacts';
 import Gallery from './gallery/gallery';
 import Home from './home/home';
 import Portfolio from './portfolio/portfolio';
+import Footer from './footer/footer';
 import {
   Routes,
   Route,
@@ -19,6 +20,7 @@ function Main() {
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
       );
 }

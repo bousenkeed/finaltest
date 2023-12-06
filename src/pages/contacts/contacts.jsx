@@ -8,9 +8,10 @@ function Contacts() {
         <div className={s.main_container}>
             <div className={s.form_pos}>
                 <form className={s.form}>
-                    <TextField className={s.form_input} id="outlined-basic" label="ФИО" variant="outlined"/>
-                    <TextField className={s.form_input} id="outlined-basic" label="E-mail" variant="outlined"/>
-                    <TextField className={s.form_input} id="outlined-basic" label="Сообщение" variant="outlined"/>
+                    <h3>Связаться со мной</h3>
+                    <TextField className={s.input_form} id="outlined-basic" label="ФИО" variant="outlined"/>
+                    <TextField className={s.input_form} id="outlined-basic" label="E-mail" variant="outlined"/>
+                    <TextField className={s.input_form} id="outlined-basic" label="Сообщение" variant="outlined"/>
                     <Button variant="contained">Отправить</Button>
                 </form>
             </div>

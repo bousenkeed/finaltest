@@ -8,7 +8,10 @@ function Home() {
         <div className={s.background_container}>
         </div>
           <h1 className={s.title}>
-            Приветствую на сайте выпускника Синергии
+            Приветствую, меня зовут Антон
+          </h1>
+          <h1 className={s.title}>
+            Вы находитесь на сайте выпускника Синергии
           </h1>
         </div>
       </div>
