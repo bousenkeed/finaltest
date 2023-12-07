@@ -1,0 +1,10 @@
+.main_container {
+    text-align: center;
+    background-image: url(../../back4.jpeg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #0D1019;;
+    position: relative;
+}

@@ -1,0 +1,50 @@
+.main_container {
+    text-align: center;
+    background-image: url(../../back4.jpeg);
+    position: relative;
+}
+
+.text {
+    margin: 0;
+    font-size: 50px;
+    size: 100%;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.image1 {
+    height: 500px;
+    width: 800px;
+}
+
+.image2 {
+    height: 300px;
+    width: 450px;
+    padding-bottom: 50px;
+}
+
+.site_container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.images {
+    padding-bottom: 20px;
+    transition: 1.2s;
+}
+
+.images:hover {
+    transform: scale(1.4);
+}
+
+@media (max-width: 850px) {
+    .images {
+        height: 100%;
+        width: 100%;
+    }
+    .text {
+        font-size: 38px;
+    }
+}

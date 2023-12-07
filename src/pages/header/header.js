@@ -29,8 +29,9 @@ function Header() {
           </Typography>
           <Button component={Link} to ="/" color="inherit">Главная</Button>
           <Button component={Link} to ="/skills" color="inherit">Навыки</Button>
-          <Button component={Link} to ="/gallery" color="inherit">Галлерея</Button>
+          <Button component={Link} to ="/portfolio" color="inherit">Портфолио</Button>
           <Button component={Link} to ="/contacts" color="inherit">Контакты</Button>
+          <Button component={Link} to ="/respect" color="inherit">Respect</Button>
         </Toolbar>
       </AppBar>
     </Box>
