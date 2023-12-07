@@ -36,7 +36,11 @@
 }
 
 .images:hover {
-    transform: scale(1.4);
+    transform: scale(1.2);
+}
+
+.ref {
+    text-decoration: none;
 }
 
 @media (max-width: 850px) {
