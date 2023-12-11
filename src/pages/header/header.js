@@ -24,14 +24,14 @@ function Header() {
           >
             {/* <MenuIcon /> */}
           </IconButton >
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          <Typography className="typo" variant="h6" component="div" sx={{ flexGrow: 1 }}>
             SINERGY
           </Typography>
-          <Button component={Link} to ="/" color="inherit">Главная</Button>
-          <Button component={Link} to ="/skills" color="inherit">Навыки</Button>
-          <Button component={Link} to ="/portfolio" color="inherit">Портфолио</Button>
-          <Button component={Link} to ="/contacts" color="inherit">Контакты</Button>
-          <Button component={Link} to ="/respect" color="inherit">Respect</Button>
+          <Button component={Link} to ="/" color="inherit"><p className="item">Главная</p></Button>
+          <Button component={Link} to ="/skills" color="inherit"><p className="item">Навыки</p></Button>
+          <Button component={Link} to ="/portfolio" color="inherit"><p className="item">Портфолио</p></Button>
+          <Button component={Link} to ="/contacts" color="inherit"><p className="item">Контакты</p></Button>
+          <Button component={Link} to ="/respect" color="inherit"><p className="item">Respect</p></Button>
         </Toolbar>
       </AppBar>
     </Box>
